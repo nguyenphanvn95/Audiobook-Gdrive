@@ -107,8 +107,8 @@ _FLOW_KEYS = {
 #
 # Left blank in the public source tree; fill these in locally before
 # building the distributed .zip.
-DEFAULT_CLIENT_ID = '987737400403-ictnn7lvbd3s13gupmcrev54fve9ohvl.apps.googleusercontent.com'
-DEFAULT_CLIENT_SECRET = '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'
+DEFAULT_CLIENT_ID = '***'
+DEFAULT_CLIENT_SECRET = '***'
 
 _token_store = JSONConfig('plugins/gdrive_sync_tokens')
 _token_store.defaults['access_token'] = ''
